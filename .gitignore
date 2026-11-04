@@ -1,0 +1,10 @@
+venv/
+.env
+__pycache__/
+*.pyc
+node_modules/
+dist/
+uploads/
+*.db
+.pytest_cache/
+backend/eval/results.json

@@ -1,0 +1,13 @@
+id,date,service,root_cause,duration_min
+INC-001,2025-01-14,orders-api,db_pool_exhaustion,40
+INC-002,2025-02-03,payment-service,memory_leak,60
+INC-003,2025-02-21,orders-api,db_pool_exhaustion,35
+INC-004,2025-03-09,web-gateway,tls_expiry,20
+INC-005,2025-04-17,payment-service,memory_leak,55
+INC-006,2025-05-05,orders-api,db_pool_exhaustion,38
+INC-007,2025-06-12,search-service,bad_config_deploy,30
+INC-008,2025-07-01,web-gateway,tls_expiry,24
+INC-009,2025-08-19,orders-api,db_pool_exhaustion,36
+INC-010,2025-09-23,payment-service,memory_leak,50
+INC-011,2025-10-30,search-service,bad_config_deploy,32
+INC-012,2025-11-18,orders-api,db_pool_exhaustion,41

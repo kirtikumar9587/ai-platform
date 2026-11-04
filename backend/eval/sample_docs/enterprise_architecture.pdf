@@ -1,0 +1,36 @@
+%PDF-1.4
+1 0 obj << /Type /Catalog /Pages 2 0 R >> endobj
+2 0 obj << /Type /Pages /Kids [3 0 R] /Count 1 >> endobj
+3 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >> endobj
+4 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> endobj
+5 0 obj << /Length 260 >> stream
+BT
+/F1 18 Tf
+50 720 Td
+(Enterprise System Architecture & SLA Specifications) Tj
+/F1 12 Tf
+0 -30 Td
+(Document ID: ARCH-2026-v1) Tj
+0 -25 Td
+(The core enterprise platform runs on Kubernetes with PostgreSQL database clusters.) Tj
+0 -20 Td
+(Disaster recovery target RTO is 15 minutes and RPO is 5 minutes.) Tj
+0 -20 Td
+(All API endpoints require Bearer JWT tokens with SHA-256 HMAC encryption.) Tj
+0 -20 Td
+(The maximum database connection pool limit per service instance is 50 connections.) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000010 00000 n 
+0000000060 00000 n 
+00000000117 00000 n 
+00000000244 00000 n 
+00000000315 00000 n 
+trailer << /Root 1 0 R /Size 6 >>
+startxref
+628
+%%EOF
