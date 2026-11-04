@@ -124,3 +124,16 @@ Detailed results, methodology, and limitations are documented in [`docs/EVALUATI
   - Build command: `npm run build`
   - Output directory: `dist`
   - Environment variable: `VITE_API_URL=<Render Backend URL>`.
+
+---
+
+## 8. Documentation & Deliverables Index
+
+| Deliverable | Location | Description |
+|---|---|---|
+| **System Architecture** | [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | High-level architecture, LangGraph flow, ingestion sequence, RAG sequence |
+| **Database Schema** | [`docs/schema.sql`](docs/schema.sql) | Standalone SQL DDL for users, documents, messages, conversations, logs |
+| **AI Evaluation Report** | [`docs/EVALUATION_REPORT.md`](docs/EVALUATION_REPORT.md) | 22-question benchmark, grounding metrics, and methodology |
+| **Evaluation Dataset** | [`eval/eval_dataset.json`](eval/eval_dataset.json) | Ground-truth benchmark Q&A dataset with source IDs |
+| **Development Report** | [`docs/DEVELOPMENT_REPORT.md`](docs/DEVELOPMENT_REPORT.md) | Rule 2 disclosure: AI tool delegation, architecture choices, bug resolutions |
+| **Agent Instructions** | [`CLAUDE.md`](CLAUDE.md) | Coding agent guidelines and test execution commands |

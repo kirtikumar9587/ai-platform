@@ -90,6 +90,8 @@ stateDiagram-v2
 
 ## 3. Database Schema (Entity-Relationship)
 
+> **Reference File:** The standalone SQL DDL script is available at [`docs/schema.sql`](schema.sql).
+
 ```mermaid
 erDiagram
     USERS ||--o{ DOCUMENTS : owns
